@@ -9,7 +9,7 @@
     },
     "scripts": {
         "start": "webpack serve --mode development",
-        "build": "webpack --mode production"
+        "build": "node_modules/.bin/webpack --mode production"
     },
     "devDependencies": {
         "@types/react": "^18.0.37",
